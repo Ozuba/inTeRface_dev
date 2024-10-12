@@ -1,0 +1,119 @@
+lvgl/CMakeFiles/lvgl.dir/src/drivers/x11/lv_x11_display.c.o: \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/lv_x11_display.c \
+ /usr/include/stdc-predef.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/lv_x11.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/lv_display.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../misc/lv_types.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../misc/../lv_conf_internal.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../misc/../lv_conf_kconfig.h \
+ /home/ozuba/git/inTeRface_dev/lv_conf.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
+ /usr/include/features.h /usr/include/features-time64.h \
+ /usr/include/bits/wordsize.h /usr/include/bits/timesize.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/long-double.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/time64.h /usr/include/bits/wchar.h \
+ /usr/include/bits/stdint-intn.h /usr/include/bits/stdint-uintn.h \
+ /usr/include/bits/stdint-least.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stddef.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdbool.h \
+ /usr/include/inttypes.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/limits.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/pthread_stack_min-dynamic.h \
+ /usr/include/bits/pthread_stack_min.h /usr/include/bits/posix2_lim.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdarg.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../misc/lv_timer.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../misc/../tick/lv_tick.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../misc/../tick/../lv_conf_internal.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../misc/../tick/../misc/lv_types.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../misc/lv_types.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../misc/lv_ll.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../misc/lv_event.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../misc/lv_array.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../misc/lv_color.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../misc/lv_assert.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../misc/lv_log.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../misc/../stdlib/lv_mem.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../misc/../stdlib/../lv_conf_internal.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../misc/../stdlib/lv_string.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../misc/../stdlib/../misc/lv_types.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../misc/lv_math.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../misc/lv_palette.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../misc/lv_color.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../misc/lv_color_op.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/lv_draw.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../lv_conf_internal.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/lv_types.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/lv_style.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/../font/lv_font.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/../font/../lv_conf_internal.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/../font/../misc/lv_types.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/../font/lv_symbol_def.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/../font/../draw/lv_draw_buf.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/../font/../draw/../misc/lv_types.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/../font/../draw/../misc/lv_area.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/../font/../draw/../misc/../lv_conf_internal.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/../font/../draw/../misc/lv_types.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/../font/../draw/../misc/lv_math.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/../font/../draw/../misc/lv_color.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/../font/../draw/../stdlib/lv_string.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/../font/../draw/lv_image_dsc.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/../font/../draw/../lv_conf_internal.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/../font/../misc/lv_area.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/../font/../misc/cache/lv_cache.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/../font/../misc/cache/lv_cache_entry.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/../font/../misc/cache/../../osal/lv_os.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/../font/../misc/cache/../../osal/../lv_conf_internal.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/../font/../misc/cache/../../osal/../misc/lv_types.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/../font/../misc/cache/../../osal/lv_os_none.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/../font/../misc/cache/../lv_types.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/../font/../misc/cache/lv_cache_private.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/../font/../misc/cache/lv_cache_lru_rb.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/../font/../misc/cache/lv_image_cache.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/../font/../misc/cache/../../lv_conf_internal.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/../font/../misc/cache/lv_image_header_cache.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/lv_color.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/lv_area.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/lv_anim.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/../lv_conf_internal.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/lv_types.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/lv_math.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/lv_timer.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/lv_ll.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/lv_text.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/../stdlib/lv_sprintf.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/../stdlib/../misc/lv_types.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/lv_assert.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/lv_bidi.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/../layouts/lv_layout.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/../layouts/../lv_conf_internal.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/../layouts/../misc/lv_types.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/../layouts/flex/lv_flex.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/../layouts/flex/../../lv_conf_internal.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/../layouts/flex/../../misc/lv_area.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/../layouts/grid/lv_grid.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/../layouts/grid/../../lv_conf_internal.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/../layouts/grid/../../misc/lv_area.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/lv_style_gen.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/lv_text.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/lv_profiler.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/lv_matrix.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/lv_image_decoder.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/lv_draw_buf.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/lv_fs.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/lv_area.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../misc/cache/lv_cache.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../display/../draw/../osal/lv_os.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../indev/lv_indev.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../indev/../core/lv_group.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../indev/../core/../lv_conf_internal.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../indev/../core/../misc/lv_types.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../indev/../core/../misc/lv_ll.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../indev/../misc/lv_area.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../indev/../misc/lv_timer.h \
+ /home/ozuba/git/inTeRface_dev/lvgl/src/drivers/x11/../../indev/../misc/lv_event.h
