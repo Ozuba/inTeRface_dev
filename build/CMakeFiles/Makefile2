@@ -63,6 +63,7 @@ CMAKE_BINARY_DIR = /home/ozuba/git/inTeRface_dev/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/ter_ui.dir/all
 all: CMakeFiles/inTeRface.dir/all
 all: lvgl/all
 .PHONY : all
@@ -72,6 +73,7 @@ preinstall: lvgl/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/ter_ui.dir/clean
 clean: CMakeFiles/inTeRface.dir/clean
 clean: lvgl/clean
 .PHONY : clean
@@ -98,9 +100,36 @@ lvgl/clean: lvgl/CMakeFiles/lvgl_demos.dir/clean
 .PHONY : lvgl/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/ter_ui.dir
+
+# All Build rule for target.
+CMakeFiles/ter_ui.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ter_ui.dir/build.make CMakeFiles/ter_ui.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ter_ui.dir/build.make CMakeFiles/ter_ui.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ozuba/git/inTeRface_dev/build/CMakeFiles --progress-num=100 "Built target ter_ui"
+.PHONY : CMakeFiles/ter_ui.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ter_ui.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ozuba/git/inTeRface_dev/build/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ter_ui.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ozuba/git/inTeRface_dev/build/CMakeFiles 0
+.PHONY : CMakeFiles/ter_ui.dir/rule
+
+# Convenience name for target.
+ter_ui: CMakeFiles/ter_ui.dir/rule
+.PHONY : ter_ui
+
+# clean rule for target.
+CMakeFiles/ter_ui.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ter_ui.dir/build.make CMakeFiles/ter_ui.dir/clean
+.PHONY : CMakeFiles/ter_ui.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/inTeRface.dir
 
 # All Build rule for target.
+CMakeFiles/inTeRface.dir/all: CMakeFiles/ter_ui.dir/all
 CMakeFiles/inTeRface.dir/all: lvgl/CMakeFiles/lvgl.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/inTeRface.dir/build.make CMakeFiles/inTeRface.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/inTeRface.dir/build.make CMakeFiles/inTeRface.dir/build
@@ -109,7 +138,7 @@ CMakeFiles/inTeRface.dir/all: lvgl/CMakeFiles/lvgl.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/inTeRface.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ozuba/git/inTeRface_dev/build/CMakeFiles 46
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ozuba/git/inTeRface_dev/build/CMakeFiles 47
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/inTeRface.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ozuba/git/inTeRface_dev/build/CMakeFiles 0
 .PHONY : CMakeFiles/inTeRface.dir/rule
@@ -156,7 +185,7 @@ lvgl/CMakeFiles/lvgl.dir/clean:
 lvgl/CMakeFiles/lvgl_thorvg.dir/all: lvgl/CMakeFiles/lvgl.dir/all
 	$(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_thorvg.dir/build.make lvgl/CMakeFiles/lvgl_thorvg.dir/depend
 	$(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_thorvg.dir/build.make lvgl/CMakeFiles/lvgl_thorvg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ozuba/git/inTeRface_dev/build/CMakeFiles --progress-num=94,95,96,97,98,99,100 "Built target lvgl_thorvg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ozuba/git/inTeRface_dev/build/CMakeFiles --progress-num=93,94,95,96,97,98,99 "Built target lvgl_thorvg"
 .PHONY : lvgl/CMakeFiles/lvgl_thorvg.dir/all
 
 # Build rule for subdir invocation for target.
@@ -182,12 +211,12 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/clean:
 lvgl/CMakeFiles/lvgl_examples.dir/all: lvgl/CMakeFiles/lvgl.dir/all
 	$(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/depend
 	$(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ozuba/git/inTeRface_dev/build/CMakeFiles --progress-num=64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93 "Built target lvgl_examples"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ozuba/git/inTeRface_dev/build/CMakeFiles --progress-num=64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92 "Built target lvgl_examples"
 .PHONY : lvgl/CMakeFiles/lvgl_examples.dir/all
 
 # Build rule for subdir invocation for target.
 lvgl/CMakeFiles/lvgl_examples.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ozuba/git/inTeRface_dev/build/CMakeFiles 76
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ozuba/git/inTeRface_dev/build/CMakeFiles 75
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lvgl/CMakeFiles/lvgl_examples.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ozuba/git/inTeRface_dev/build/CMakeFiles 0
 .PHONY : lvgl/CMakeFiles/lvgl_examples.dir/rule

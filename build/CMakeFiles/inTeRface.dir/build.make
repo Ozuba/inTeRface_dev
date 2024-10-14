@@ -69,10 +69,24 @@ include CMakeFiles/inTeRface.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/inTeRface.dir/flags.make
 
+CMakeFiles/inTeRface.dir/src/can.c.o: CMakeFiles/inTeRface.dir/flags.make
+CMakeFiles/inTeRface.dir/src/can.c.o: /home/ozuba/git/inTeRface_dev/src/can.c
+CMakeFiles/inTeRface.dir/src/can.c.o: CMakeFiles/inTeRface.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ozuba/git/inTeRface_dev/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/inTeRface.dir/src/can.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/inTeRface.dir/src/can.c.o -MF CMakeFiles/inTeRface.dir/src/can.c.o.d -o CMakeFiles/inTeRface.dir/src/can.c.o -c /home/ozuba/git/inTeRface_dev/src/can.c
+
+CMakeFiles/inTeRface.dir/src/can.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/inTeRface.dir/src/can.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ozuba/git/inTeRface_dev/src/can.c > CMakeFiles/inTeRface.dir/src/can.c.i
+
+CMakeFiles/inTeRface.dir/src/can.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/inTeRface.dir/src/can.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ozuba/git/inTeRface_dev/src/can.c -o CMakeFiles/inTeRface.dir/src/can.c.s
+
 CMakeFiles/inTeRface.dir/src/main.c.o: CMakeFiles/inTeRface.dir/flags.make
 CMakeFiles/inTeRface.dir/src/main.c.o: /home/ozuba/git/inTeRface_dev/src/main.c
 CMakeFiles/inTeRface.dir/src/main.c.o: CMakeFiles/inTeRface.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ozuba/git/inTeRface_dev/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/inTeRface.dir/src/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ozuba/git/inTeRface_dev/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/inTeRface.dir/src/main.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/inTeRface.dir/src/main.c.o -MF CMakeFiles/inTeRface.dir/src/main.c.o.d -o CMakeFiles/inTeRface.dir/src/main.c.o -c /home/ozuba/git/inTeRface_dev/src/main.c
 
 CMakeFiles/inTeRface.dir/src/main.c.i: cmake_force
@@ -83,31 +97,18 @@ CMakeFiles/inTeRface.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/inTeRface.dir/src/main.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ozuba/git/inTeRface_dev/src/main.c -o CMakeFiles/inTeRface.dir/src/main.c.s
 
-CMakeFiles/inTeRface.dir/ui/inTeRface.c.o: CMakeFiles/inTeRface.dir/flags.make
-CMakeFiles/inTeRface.dir/ui/inTeRface.c.o: /home/ozuba/git/inTeRface_dev/ui/inTeRface.c
-CMakeFiles/inTeRface.dir/ui/inTeRface.c.o: CMakeFiles/inTeRface.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ozuba/git/inTeRface_dev/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/inTeRface.dir/ui/inTeRface.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/inTeRface.dir/ui/inTeRface.c.o -MF CMakeFiles/inTeRface.dir/ui/inTeRface.c.o.d -o CMakeFiles/inTeRface.dir/ui/inTeRface.c.o -c /home/ozuba/git/inTeRface_dev/ui/inTeRface.c
-
-CMakeFiles/inTeRface.dir/ui/inTeRface.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/inTeRface.dir/ui/inTeRface.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ozuba/git/inTeRface_dev/ui/inTeRface.c > CMakeFiles/inTeRface.dir/ui/inTeRface.c.i
-
-CMakeFiles/inTeRface.dir/ui/inTeRface.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/inTeRface.dir/ui/inTeRface.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ozuba/git/inTeRface_dev/ui/inTeRface.c -o CMakeFiles/inTeRface.dir/ui/inTeRface.c.s
-
 # Object files for target inTeRface
 inTeRface_OBJECTS = \
-"CMakeFiles/inTeRface.dir/src/main.c.o" \
-"CMakeFiles/inTeRface.dir/ui/inTeRface.c.o"
+"CMakeFiles/inTeRface.dir/src/can.c.o" \
+"CMakeFiles/inTeRface.dir/src/main.c.o"
 
 # External object files for target inTeRface
 inTeRface_EXTERNAL_OBJECTS =
 
+inTeRface: CMakeFiles/inTeRface.dir/src/can.c.o
 inTeRface: CMakeFiles/inTeRface.dir/src/main.c.o
-inTeRface: CMakeFiles/inTeRface.dir/ui/inTeRface.c.o
 inTeRface: CMakeFiles/inTeRface.dir/build.make
+inTeRface: libter_ui.a
 inTeRface: lib/liblvgl.a
 inTeRface: /usr/lib/libSDL2-2.0.so.0.3000.8
 inTeRface: CMakeFiles/inTeRface.dir/link.txt

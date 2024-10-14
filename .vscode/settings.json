@@ -1,3 +1,8 @@
 {
-    "ros.distro": "jazzy-base"
+    "ros.distro": "jazzy-base",
+    "files.associations": {
+        "can.h": "c",
+        "raw.h": "c",
+        "fcntl.h": "c"
+    }
 }

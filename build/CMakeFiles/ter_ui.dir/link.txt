@@ -1,0 +1,2 @@
+/usr/bin/ar qc libter_ui.a CMakeFiles/ter_ui.dir/ui/inTeRface.c.o
+/usr/bin/ranlib libter_ui.a

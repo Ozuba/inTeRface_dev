@@ -1,1 +1,1 @@
-/usr/bin/cc -g CMakeFiles/inTeRface.dir/src/main.c.o CMakeFiles/inTeRface.dir/ui/inTeRface.c.o -o inTeRface  lib/liblvgl.a /usr/lib/libSDL2-2.0.so.0.3000.8
+/usr/bin/cc CMakeFiles/inTeRface.dir/src/can.c.o CMakeFiles/inTeRface.dir/src/main.c.o -o inTeRface  libter_ui.a lib/liblvgl.a /usr/lib/libSDL2-2.0.so.0.3000.8

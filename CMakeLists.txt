@@ -9,18 +9,21 @@ find_package(SDL2 REQUIRED)
 add_subdirectory(lvgl) # Change this to your LVGL path
 target_include_directories(lvgl PUBLIC ${PROJECT_SOURCE_DIR})
 
+# Create the UI lib
 
-include_directories(
-${CMAKE_SOURCE_DIR}
-ui
-src
-)
+file(GLOB UI_SOURCE ui/*.c)
+add_library(ter_ui ${UI_SOURCE})
+target_include_directories(ter_ui PUBLIC ${PROJECT_SOURCE_DIR})
+
 # Create executable
 add_executable(${CMAKE_PROJECT_NAME} 
+src/can.c
 src/main.c
-ui/inTeRface.c
+)
+target_include_directories(${CMAKE_PROJECT_NAME} PUBLIC
+${CMAKE_SOURCE_DIR}
 )
 
 # Link libraries
-target_link_libraries(${CMAKE_PROJECT_NAME} lvgl SDL2::SDL2)
+target_link_libraries(${CMAKE_PROJECT_NAME} ter_ui lvgl SDL2::SDL2)
 

@@ -1,3 +1,6 @@
 [submodule "lvgl"]
 	path = lvgl
 	url = https://github.com/lvgl/lvgl
+[submodule "TeR_DATABASES"]
+	path = TeR_DATABASES
+	url = https://github.com/Tecnun-eRacing/TeR_DATABASES

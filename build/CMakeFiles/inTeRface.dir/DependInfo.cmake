@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/ozuba/git/inTeRface_dev/src/can.c" "CMakeFiles/inTeRface.dir/src/can.c.o" "gcc" "CMakeFiles/inTeRface.dir/src/can.c.o.d"
   "/home/ozuba/git/inTeRface_dev/src/main.c" "CMakeFiles/inTeRface.dir/src/main.c.o" "gcc" "CMakeFiles/inTeRface.dir/src/main.c.o.d"
-  "/home/ozuba/git/inTeRface_dev/ui/inTeRface.c" "CMakeFiles/inTeRface.dir/ui/inTeRface.c.o" "gcc" "CMakeFiles/inTeRface.dir/ui/inTeRface.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -152,6 +152,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/ter_ui.dir/DependInfo.cmake"
   "CMakeFiles/inTeRface.dir/DependInfo.cmake"
   "lvgl/CMakeFiles/lvgl.dir/DependInfo.cmake"
   "lvgl/CMakeFiles/lvgl_thorvg.dir/DependInfo.cmake"

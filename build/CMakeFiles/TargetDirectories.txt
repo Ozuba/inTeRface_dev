@@ -1,3 +1,4 @@
+/home/ozuba/git/inTeRface_dev/build/CMakeFiles/ter_ui.dir
 /home/ozuba/git/inTeRface_dev/build/CMakeFiles/inTeRface.dir
 /home/ozuba/git/inTeRface_dev/build/CMakeFiles/edit_cache.dir
 /home/ozuba/git/inTeRface_dev/build/CMakeFiles/rebuild_cache.dir

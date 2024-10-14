@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE
 
-C_INCLUDES = -I/home/ozuba/git/inTeRface_dev -I/home/ozuba/git/inTeRface_dev/ui -I/home/ozuba/git/inTeRface_dev/src -isystem /home/ozuba/git/inTeRface_dev/lvgl -isystem /home/ozuba/git/inTeRface_dev/build/lvgl -isystem /usr/include/SDL2
+C_INCLUDES = -I/home/ozuba/git/inTeRface_dev -isystem /home/ozuba/git/inTeRface_dev/lvgl -isystem /home/ozuba/git/inTeRface_dev/build/lvgl -isystem /usr/include/SDL2
 
-C_FLAGS = -g
+C_FLAGS = 
 

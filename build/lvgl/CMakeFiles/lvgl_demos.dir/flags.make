@@ -6,5 +6,5 @@ C_DEFINES = -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE
 
 C_INCLUDES = -I/home/ozuba/git/inTeRface_dev -isystem /home/ozuba/git/inTeRface_dev/lvgl/demos -isystem /home/ozuba/git/inTeRface_dev/lvgl -isystem /home/ozuba/git/inTeRface_dev/build/lvgl
 
-C_FLAGS = -g
+C_FLAGS = 
 

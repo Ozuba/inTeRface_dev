@@ -162,6 +162,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named ter_ui
+
+# Build rule for target.
+ter_ui: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ter_ui
+.PHONY : ter_ui
+
+# fast build rule for target.
+ter_ui/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ter_ui.dir/build.make CMakeFiles/ter_ui.dir/build
+.PHONY : ter_ui/fast
+
+#=============================================================================
 # Target rules for targets named inTeRface
 
 # Build rule for target.
@@ -226,6 +239,30 @@ lvgl_demos/fast:
 	$(MAKE) $(MAKESILENT) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/build
 .PHONY : lvgl_demos/fast
 
+src/can.o: src/can.c.o
+.PHONY : src/can.o
+
+# target to build an object file
+src/can.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/inTeRface.dir/build.make CMakeFiles/inTeRface.dir/src/can.c.o
+.PHONY : src/can.c.o
+
+src/can.i: src/can.c.i
+.PHONY : src/can.i
+
+# target to preprocess a source file
+src/can.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/inTeRface.dir/build.make CMakeFiles/inTeRface.dir/src/can.c.i
+.PHONY : src/can.c.i
+
+src/can.s: src/can.c.s
+.PHONY : src/can.s
+
+# target to generate assembly for a file
+src/can.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/inTeRface.dir/build.make CMakeFiles/inTeRface.dir/src/can.c.s
+.PHONY : src/can.c.s
+
 src/main.o: src/main.c.o
 .PHONY : src/main.o
 
@@ -255,7 +292,7 @@ ui/inTeRface.o: ui/inTeRface.c.o
 
 # target to build an object file
 ui/inTeRface.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/inTeRface.dir/build.make CMakeFiles/inTeRface.dir/ui/inTeRface.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ter_ui.dir/build.make CMakeFiles/ter_ui.dir/ui/inTeRface.c.o
 .PHONY : ui/inTeRface.c.o
 
 ui/inTeRface.i: ui/inTeRface.c.i
@@ -263,7 +300,7 @@ ui/inTeRface.i: ui/inTeRface.c.i
 
 # target to preprocess a source file
 ui/inTeRface.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/inTeRface.dir/build.make CMakeFiles/inTeRface.dir/ui/inTeRface.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ter_ui.dir/build.make CMakeFiles/ter_ui.dir/ui/inTeRface.c.i
 .PHONY : ui/inTeRface.c.i
 
 ui/inTeRface.s: ui/inTeRface.c.s
@@ -271,7 +308,7 @@ ui/inTeRface.s: ui/inTeRface.c.s
 
 # target to generate assembly for a file
 ui/inTeRface.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/inTeRface.dir/build.make CMakeFiles/inTeRface.dir/ui/inTeRface.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ter_ui.dir/build.make CMakeFiles/ter_ui.dir/ui/inTeRface.c.s
 .PHONY : ui/inTeRface.c.s
 
 # Help Target
@@ -291,6 +328,10 @@ help:
 	@echo "... lvgl_demos"
 	@echo "... lvgl_examples"
 	@echo "... lvgl_thorvg"
+	@echo "... ter_ui"
+	@echo "... src/can.o"
+	@echo "... src/can.i"
+	@echo "... src/can.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
